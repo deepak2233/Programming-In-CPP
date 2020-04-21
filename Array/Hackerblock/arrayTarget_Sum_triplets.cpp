@@ -30,7 +30,7 @@ int main()
                 }
                 else if((arr[i]+arr[l]+arr[r]<S))
                 {
-                    l++;
+                    l++; 
                 }
             }
         }
