@@ -16,7 +16,7 @@ int main()
             count+=arr[i];
         }
         if(tot_Candies>=count)
-            cout<<"Yes"<<endl;
+            cout<<"Yes"<<endl;   
         else
             cout<<"No"<<endl;
     }
