@@ -17,14 +17,14 @@
    * [HakerRank](https://github.com/deepak2233/Programming-In-CPP/tree/master/Array/HackerRank)
    * [Hackerearth](https://github.com/deepak2233/Programming-In-CPP/tree/master/Array/Hackerearth)
    * [CodeChef](https://github.com/deepak2233/Programming-In-CPP/tree/master/Array/Codechef) 
-   
+ 
+ 
 
 ## Multi-dimensional ARRAY
 
 ##### For Overview or Learn of Arrya you can refer following link..
 
-   * [Multi-dimensional Array1](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-      iap-2011/lecture-notes/MIT6_096IAP11_lec04.pdf) 
-   
+   * [Multi-dimensional Array1](https://www.cs.uic.edu/~jbell/CourseNotes/CPlus/Arrays.html)   
    * [Multi-dimensiona Array2](https://www.hackerearth.com/practice/data-structures/arrays/multi-dimensional/tutorial/)
    * [Multi-dimensional Array3](https://www.geeksforgeeks.org/multidimensional-arrays-c-cpp/)
 
