@@ -6,12 +6,13 @@ In which I'll covered all Data Structure from basic DS (Array) to addvance DS (G
 ## ARRAY
 
 For Overview or Learn of Arrya you can refer following link..
-1) [Array1](https://www.cs.uic.edu/~jbell/CourseNotes/C_Programming/Arrays.html).
+1) [Array1](https://www.cs.uic.edu/~jbell/CourseNotes/C_Programming/Arrays.html) "\n"
    [Array2](http://www.cplusplus.com/doc/tutorial/arrays/)
 
-2) [Array](https://github.com/deepak2233/Programming-In-CPP/tree/master/Array).
+2) [Array](https://github.com/deepak2233/Programming-In-CPP/tree/master/Array)
 
-For Practice, Here some important qus.
+3) For Practice, Here some important qus.
+
 a) [HakerRank](https://github.com/deepak2233/Programming-In-CPP/tree/master/Array/HackerRank)
 b) [Hackerearth](https://github.com/deepak2233/Programming-In-CPP/tree/master/Array/Hackerearth)
 c) [CodeChef](https://github.com/deepak2233/Programming-In-CPP/tree/master/Array/Codechef) 
