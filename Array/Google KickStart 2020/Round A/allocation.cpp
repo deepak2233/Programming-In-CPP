@@ -18,7 +18,7 @@ int main()
          for(int i=0;i<N;i++)
         {
             sum+=arr[i];
-            if(sum<=B)             // Successfully Buy 
+            if(sum<=B)             // Successfully Buy within Budzet
             {
                 count++;
             }
