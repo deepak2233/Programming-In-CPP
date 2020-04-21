@@ -1,6 +1,6 @@
 # Coding Question
 
-Welcome to my Github Page, I've Created repository in topic wise (taking all conding question from different different plateform).
+##.Welcome to my Github Page, I've Created repository in topic wise (taking all conding question from different different plateform).
 In which I'll covered all Data Structure from basic DS (Array) to addvance DS (Graph).
 
 ## ARRAY
