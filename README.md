@@ -19,8 +19,6 @@
    * [CodeChef](https://github.com/deepak2233/Programming-In-CPP/tree/master/Array/Codechef) 
 
     
-
-
 ## User
 
 [Deepak Yadav](https://github.com/deepak2233)
