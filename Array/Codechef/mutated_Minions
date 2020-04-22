@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long int
+
+int main()
+{
+    ios_base::sync_with_stdio();
+    cin.tie(NULL);
+    ll t;
+    cin>>t;
+    while(t--)
+    {
+        ll n,i,s=0,k,count=0;
+        cin>>n>>k;
+        ll a[n];
+        for(i=0;i<n;i++)
+        {
+            cin>>a[i];
+            s=k+a[i];
+            if(s%7==0){
+            count++;
+
+            }
+        }
+        cout<<count<<"\n";
+    }
+    return 0;
+}
