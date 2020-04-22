@@ -50,7 +50,7 @@ int main()
         }
         int candidate1=cumulativeSum(arr, n);
         int candidate2=maxSubarray_Sum(arr2, n);
-        cout<<cadidate1+cadidate2<<"\n";
+        cout<<candidate1+candidate2<<"\n";
 
 
 
