@@ -17,9 +17,9 @@ int main()
         {
             cin>>a[i];
             s=s+a[i];
-            if(a[i]<=min){
+            if(a[i]<=min)
+            {
             min=a[i];
-
             }
         }
         cout<<(s-n*min)<<"\n";
