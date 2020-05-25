@@ -1,33 +1,48 @@
-#include<iostream>
-#include<iomanip>
+#include<bits/stdc++.h>
 using namespace std;
-long fact(long n){
-   int i, fact = 1;
-   for(i = n; i>1; i--)
-      fact *= i;
-   return fact;
+
+
+int fact(int n)
+{
+	if(n==0 || n==1)
+	{
+		return 1;
+	}
+	return n*fact(n-1);
 }
-long nCr(long n, long r){
-   long nume = 1, i;
-   for(i = n; i>r; i--)
-      nume *= i;
-   return long(nume/fact(n-r));
+
+int nCr(int n, int r)
+{
+	return(fact(n)/fact(n-r)/fact(r));
 }
-void genPascalsTriangle(long n){
-   for(int i = 0; i<n; i++){
-      for(int j = 0; j<(n-i-1); j++)
-         cout <<setw(3)<< " ";
-      for(int j = 0; j<(i+1); j++)
-         cout <<setw(3)<< nCr(i, j) <<setw(3)<< " ";
-      cout << endl;
-   }
-}
-main(){
+
+int main()
+{
 #ifndef ONLINE_JUDGE 
-   freopen("input.text", "r", stdin); 
-   freopen("output.text", "w", stdout); 
+	freopen("input.text", "r", stdin); 
+	freopen("output.text", "w", stdout); 
 #endif
-   int n;
-   cin >> n;
-   genPascalsTriangle(n);
+
+	int n,k,r=0;
+	cin>>n;
+	for(int i=1;i<=n;i++)
+	{
+		k=1;
+		r=0;
+		for(int j=1;j<=2*n-1;j++)
+		{
+			if(j>=n+1-i && j<= n-1+i && k)
+			{
+				cout<<nCr(i-1,r);
+				r++;
+				k=0;
+			}
+			else{
+				cout<<" ";
+				k=1;
+			}
+
+		}
+		cout<<"\n";
+	}
 }
